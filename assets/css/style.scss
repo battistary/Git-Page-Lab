@@ -1,7 +1,6 @@
 ---
 ---
 
-@import "{{ site.theme }}";
 @font-face {
   font-family: 'Comic Sans MS';
   src: url('assets/fonts/comic-sans.ttf');
@@ -9,3 +8,4 @@
 body {
   font: 14px/1.5 'Comic Sans MS', sans-serif;
 }
+@import "{{ site.theme }}";
