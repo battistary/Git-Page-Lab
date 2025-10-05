@@ -1,3 +1,6 @@
+---
 layout: page
 title: "Page 1"
-permalink: /URL-PATH
+permalink: /page1.md
+---
+This is Page 1
