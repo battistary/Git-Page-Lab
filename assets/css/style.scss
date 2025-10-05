@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-@font-face {
+body {
   font-family: 'Comic Sans MS';
   src: url('../fonts/comic-sans.ttf');
 }
