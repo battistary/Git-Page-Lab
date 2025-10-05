@@ -5,7 +5,16 @@
   font-family: 'Comic Sans MS';
   src: url('assets/fonts/comic-sans.ttf');
 }
-body {
-  font: 14px/1.5 'Comic Sans MS', sans-serif;
-}
+
+/* Define your custom font variables before importing the theme */
+$base-font-family: "Comic Sans MS", sans-serif !default;
+$base-font-size: 14px !default;
+$base-font-weight: 400 !default;
+
+/* Import the theme's main SCSS file */
 @import "{{ site.theme }}";
+
+/* Add any additional custom CSS overrides here */
+body {
+  font-family: $base-font-family;
+}
